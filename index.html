@@ -11,6 +11,37 @@
     padding: 5px; 
 	font-size: 150%; 
    }
+   
+   <style>
+	.grid {
+		display:grid;
+		grid-template-columns: 100px 100px 100px 100px 100px;
+		grid-template-rows: 100px;
+		grid-gap:20px;
+	}
+	.grid div {
+		background: black;
+	}
+	.grid div:nth-child(even) {
+		background: #009ABF;
+	}
+	.grid div:hover {
+		background: #FF9F19;
+	}
+</style>
+<body>
+	<div class="grid">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
   </style>
   <style>
    h1 {
